@@ -14,4 +14,5 @@ public class PosterItem {
     private String pictireUrl;
     private String genre;
 
+
 }

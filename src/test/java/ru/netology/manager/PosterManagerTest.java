@@ -81,7 +81,7 @@ class PosterManagerTest {
 
     @Test
     void add() {
-        manager = new PosterManager(5);
+        manager = new PosterManager(7);
         fillFirstData();
 
         PosterItem[] actual = manager.getAll();
