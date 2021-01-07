@@ -14,4 +14,11 @@ public class PosterItem {
     private String pictireUrl;
     private String genre;
 
+    public PosterItem(int id, String movieName, String pictireUrl, String genre) {
+        this.id = id;
+        this.movieName = movieName;
+        this.pictireUrl = pictireUrl;
+        this.genre = genre;
+    }
+
 }
